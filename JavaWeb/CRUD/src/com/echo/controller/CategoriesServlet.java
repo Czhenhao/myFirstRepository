@@ -1,23 +1,36 @@
 package com.echo.controller;
 
+import com.echo.javabean.Categories;
 import com.echo.util.ExecuteUtil;
 import com.echo.util.JDBCUtil;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.sql.Connection;
+import java.util.List;
 
 public class CategoriesServlet extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         String servletPath = request.getServletPath();
         if ("/add".equals(servletPath)) add(request,response);
         else if ("/delete".equals(servletPath)) delete(request,response);
         else if ("/update".equals(servletPath)) update(request,response);
+        else if ("/getall".equals(servletPath)) getall(request,response);
     }
+
+    private void getall(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        request.setCharacterEncoding("UTF-8");
+        response.setContentType("text/html;charset=UTF-8");
+        List<Categories> all = ExecuteUtil.getAll();
+        ObjectMapper objectMapper = new ObjectMapper();
+        String s = objectMapper.writeValueAsString(all);
+        response.getWriter().print(s);
+    }
+
 
     private void update(HttpServletRequest request, HttpServletResponse response) throws IOException {
         request.setCharacterEncoding("UTF-8");

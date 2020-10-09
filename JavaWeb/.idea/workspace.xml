@@ -6,11 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b7a01e5-8f04-4500-942b-3a0a439d4cb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CRUD/src/com/echo/controller/CategoriesServlet.java" afterDir="false" />
+    <list default="true" id="1b7a01e5-8f04-4500-942b-3a0a439d4cb8" name="Default Changelist" comment="前后端分离">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CRUD_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/CRUD_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUD/CRUD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD/CRUD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUD/src/com/echo/controller/CategoriesServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD/src/com/echo/controller/CategoriesServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUD/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUD/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD/web/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/CRUD_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CRUD_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CRUD_war_exploded/index.jsp" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,13 +30,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="jsf" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -45,16 +51,20 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectId" id="1hgJ0gT0M7XVpGAQuplK9a0Q6uV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="12" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CRUD/web/WEB-INF/js" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CRUD/web/WEB-INF/lib" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15448658" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -65,12 +75,17 @@
       <recent name="com.echo.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\学习包\delete\JavaWeb\CRUD\web\WEB-INF\js" />
       <recent name="E:\学习包\delete\JavaWeb\CRUD\web\WEB-INF\lib" />
       <recent name="E:\学习包\delete\JavaWeb\CRUD\web" />
+      <recent name="E:\学习包\delete\JavaWeb\CRUD\web\WEB-INF\js" />
       <recent name="E:\学习包\delete\JavaWeb\Demo_1\web\static" />
       <recent name="E:\学习包\delete\JavaWeb\Demo_1\web\WEB-INF\lib" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value=")" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -246,8 +261,18 @@
       <workItem from="1601112572112" duration="6003000" />
       <workItem from="1601120141426" duration="11479000" />
       <workItem from="1601135283731" duration="1083000" />
-      <workItem from="1601195549851" duration="681000" />
+      <workItem from="1601195549851" duration="1402000" />
+      <workItem from="1601531067530" duration="3077000" />
+      <workItem from="1602230706189" duration="4915000" />
     </task>
+    <task id="LOCAL-00001" summary="Servlet Improve">
+      <created>1601196384647</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601196384647</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,5 +300,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Servlet Improve" />
+    <MESSAGE value="前后端分离" />
+    <option name="LAST_COMMIT_MESSAGE" value="前后端分离" />
   </component>
 </project>

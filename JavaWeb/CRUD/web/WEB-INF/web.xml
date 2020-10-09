@@ -7,11 +7,13 @@
         <servlet-name>CategoriesServlet</servlet-name>
         <servlet-class>com.echo.controller.CategoriesServlet</servlet-class>
     </servlet>
+
     <servlet-mapping>
         <servlet-name>CategoriesServlet</servlet-name>
         <url-pattern>/delete</url-pattern>
         <url-pattern>/update</url-pattern>
         <url-pattern>/add</url-pattern>
+        <url-pattern>/getall</url-pattern>
     </servlet-mapping>
 
     <!--<servlet>
